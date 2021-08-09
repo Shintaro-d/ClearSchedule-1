@@ -14,7 +14,7 @@ public class ScheduleData {
     public long id;           //「id」カラムを定義
     public String title;   //「タイトル」カラムを定義
     public int color;        //「色// 」カラムを定義
-    public Date date;        //「日付」カラムを定義
+    public int date;        //「日付」カラムを定義
     public int label; //「ラベル」カラムを定義
 
     /**
@@ -22,8 +22,9 @@ public class ScheduleData {
      * @param title タイトル
      * @param color   色
      * @param date    日付
+     * @param label   ラベル
      */
-    public ScheduleData(String title, int color, Date date, int label) {
+    public ScheduleData(String title, int color, int date, int label) {
         this.title = title;  //「タイトル」を設定
         this.color = color;      //「色」を設定
         this.date = date;        //「日付」を設定
@@ -58,7 +59,7 @@ public class ScheduleData {
      *　「日付」を取得（Getter）
      * @return
      */
-    public Date getDate() {
+    public int getDate() {
         return date;
     }
 
@@ -79,7 +80,7 @@ public class ScheduleData {
      * @param label 更新する「ラベル」
      * @return 更新した「予定データ」
      */
-    public ScheduleData update(String title, int color, Date date, int label){
+    public ScheduleData update(String title, int color, int date, int label){
         this.title = title;  //「タイトル」を設定
         this.color = color;      //「色」を設定
         this.date = date;        //「日付」を設定
