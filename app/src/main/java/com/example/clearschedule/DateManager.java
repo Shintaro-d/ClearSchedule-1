@@ -1,4 +1,4 @@
-package jp.co.apps.workout.calendarsample;
+package com.example.clearschedule;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

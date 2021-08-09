@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/grayColor"
-    tools:context="jp.co.apps.workout.calendarsample.MainActivity">
+    tools:context="com.example.clearschedule.HomescreenActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
