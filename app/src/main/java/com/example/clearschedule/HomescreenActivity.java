@@ -18,7 +18,7 @@ public class HomescreenActivity extends AppCompatActivity {
 
         editbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(HomescreenActivity.this, EditscreenActivity.class);
+                Intent intent = new Intent(HomescreenActivity.this, PlanscreenActivity.class);
                 startActivity(intent);
             }
         });
