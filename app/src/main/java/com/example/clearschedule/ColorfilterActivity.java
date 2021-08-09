@@ -21,5 +21,14 @@ public class ColorfilterActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }); /*カラーフィルタ画面からスタート画面への画面遷移*/
+
+        final Button finishbutton = findViewById(R.id.finishbutton);
+        finishbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(ColorfilterActivity.this,HomescreenActivity.class);
+                startActivity(intent);
+            }
+        }); /*カラーフィルタ画面からホーム画面への画面遷移*/
+
     }
 }
