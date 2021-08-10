@@ -57,6 +57,15 @@ public class HomescreenActivity extends AppCompatActivity {
             }
         });
 
+        final Button hyoujibutton = findViewById(R.id.button16);
+
+        editbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(HomescreenActivity.this, LabelscreenActivity.class);
+                startActivity(intent);
+            }
+        });
+
         /*AppDatabase db = Room.databaseBuilder(getApplicationContext(),
                 AppDatabase.class, "database-name").build(); /*これでデータベースの取得ができるかも*/
         /*ScheduleDao scheduleDao = db.scheduleDao(); /*これでクエリの発行ができるかも*/
