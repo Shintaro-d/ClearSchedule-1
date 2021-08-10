@@ -38,6 +38,7 @@
     <string name="editbutton">＋</string>
     <string name="date">日付</string>
     <string name="display">表示</string>
+    <string name="back">＜</string>
 
 
 </resources>
