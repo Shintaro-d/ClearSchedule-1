@@ -8,6 +8,8 @@ import android.widget.GridView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.room.Database;
+import androidx.room.Room;
 
 
 public class HomescreenActivity extends AppCompatActivity {
@@ -54,5 +56,9 @@ public class HomescreenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        AppDatabase db = Room.databaseBuilder(getApplicationContext(),
+                AppDatabase.class, "database-name").build(); /*これでデータベースの取得ができるかも*/
+        ScheduleDao scheduleDao = db.scheduleDao(); /*これでクエリの発行ができるかも*/
     }
 }

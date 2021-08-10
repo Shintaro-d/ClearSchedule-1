@@ -36,6 +36,7 @@
     <string name="title_activity_startscreen">StartscreenActivity</string>
     <string name="hint">予定を入力してください</string>
     <string name="editbutton">＋</string>
+    <string name="date">日付</string>
 
 
 </resources>
