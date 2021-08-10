@@ -37,6 +37,7 @@
     <string name="hint">予定を入力してください</string>
     <string name="editbutton">＋</string>
     <string name="date">日付</string>
+    <string name="display">表示</string>
 
 
 </resources>
