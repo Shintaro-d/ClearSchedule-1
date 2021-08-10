@@ -57,8 +57,8 @@ public class HomescreenActivity extends AppCompatActivity {
             }
         });
 
-        AppDatabase db = Room.databaseBuilder(getApplicationContext(),
+        /*AppDatabase db = Room.databaseBuilder(getApplicationContext(),
                 AppDatabase.class, "database-name").build(); /*これでデータベースの取得ができるかも*/
-        ScheduleDao scheduleDao = db.scheduleDao(); /*これでクエリの発行ができるかも*/
+        /*ScheduleDao scheduleDao = db.scheduleDao(); /*これでクエリの発行ができるかも*/
     }
 }
